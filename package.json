@@ -1,0 +1,30 @@
+{
+  "name": "node-sequelize-example",
+  "version": "1.0.0",
+  "description": "example of use of sequelize and csv files",
+  "main": "db_seeder.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srobertson421/Node-Sequelize-Seeder.git"
+  },
+  "keywords": [
+    "seedersd"
+  ],
+  "author": "david",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srobertson421/Node-Sequelize-Seeder/issues"
+  },
+  "homepage": "https://github.com/srobertson421/Node-Sequelize-Seeder#readme",
+  "dependencies": {
+    "csv-parser": "^2.2.0",
+    "csvtojson": "^2.0.8",
+    "pg": "^7.8.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.43.0",
+    "sequelize-cli": "^5.4.0"
+  }
+}
